@@ -15,3 +15,5 @@ aws sesv2 list-contacts --cli-input-json file://list-contacts.json
 Send Email:
 aws sesv2 send-email --from-email-address davelem@amazon.com --destination file://destination.json --content file://message.json --list-management-options file://listoptions.json
 
+Cleaning Up:
+./cleanup.sh
