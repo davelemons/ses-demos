@@ -1,0 +1,30 @@
+{
+    "ContactListName": "ExampleContactListName",
+    "Description": "Creating a contact list example",
+    "Topics": [
+     {
+         "TopicName": "Sports",
+         "DisplayName": "Sports Newsletter",
+         "Description": "Sign up for our free newsletter to receive updates on all sports.",
+         "DefaultSubscriptionStatus": "OPT_OUT"
+     },
+     {
+         "TopicName": "Cycling",
+         "DisplayName": "Cycling newsletter",
+         "Description": "Never miss a cycling update by subscribing to our newsletter.",
+         "DefaultSubscriptionStatus": "OPT_IN"
+     },
+     {
+         "TopicName": "NewProducts",
+         "DisplayName": "New products",
+         "Description": "Hear about new products by subscribing to this mailing list.",
+         "DefaultSubscriptionStatus": "OPT_IN"
+     },
+     {
+         "TopicName": "DailyUpdates",
+         "DisplayName": "Daily updates",
+         "Description": "Start your day with sport updates, Monday through Friday.",
+         "DefaultSubscriptionStatus": "OPT_OUT"
+     }
+    ]
+}

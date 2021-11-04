@@ -1,0 +1,17 @@
+List Management:
+--------------------
+List Contact Lists:
+aws sesv2 list-contact-lists
+
+Create Contact List:
+aws sesv2 create-contact-list --cli-input-json file://contact-list.json
+
+Add Contact to List:
+aws sesv2 create-contact --cli-input-json file://contact.json
+
+List Contacts in List:
+aws sesv2 list-contacts --cli-input-json file://list-contacts.json
+
+Send Email:
+aws sesv2 send-email --from-email-address davelem@amazon.com --destination file://destination.json --content file://message.json --list-management-options file://listoptions.json
+

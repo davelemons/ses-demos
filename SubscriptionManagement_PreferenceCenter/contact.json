@@ -1,0 +1,12 @@
+{
+    "ContactListName": "ExampleContactListName",
+    "EmailAddress": "dave@davelemons.com",
+    "UnsubscribeAll": false,
+    "TopicPreferences": [
+        {
+            "TopicName": "Sports",
+            "SubscriptionStatus": "OPT_IN"
+        }
+    ],
+    "AttributesData": "{\"Name\": \"John\", \"Location\": \"Seattle\"}"
+}
