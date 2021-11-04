@@ -1,4 +1,5 @@
-* ses-demos [WIP]
+# ses-demos [WIP]
+
 Sample CLI commands for:
 
 - Subscription Management
