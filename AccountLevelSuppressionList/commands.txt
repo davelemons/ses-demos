@@ -1,0 +1,14 @@
+Account Level Suppresion List:
+https://docs.aws.amazon.com/ses/latest/DeveloperGuide/sending-email-suppression-list.html
+
+Is Account Level Suppression Enabled (SuppressionAttributes.SuppressedReasons):
+aws sesv2 get-account 
+
+See who's on it:
+aws sesv2 list-suppressed-destinations
+
+Remove an email address:
+aws sesv2 delete-suppressed-destination --email-address suppressionlist@davelemons.com
+
+Add an email address:
+aws sesv2 put-suppressed-destination --email-address suppressionlist@davelemons.com --reason BOUNCE
