@@ -1,4 +1,7 @@
 List Management:
+https://docs.aws.amazon.com/ses/latest/DeveloperGuide/sending-email-list-management.html
+https://docs.aws.amazon.com/ses/latest/DeveloperGuide/sending-email-subscription-management.html
+
 --------------------
 List Contact Lists:
 aws sesv2 list-contact-lists
@@ -17,3 +20,4 @@ aws sesv2 send-email --from-email-address davelem@amazon.com --destination file:
 
 Cleaning Up:
 ./cleanup.sh
+

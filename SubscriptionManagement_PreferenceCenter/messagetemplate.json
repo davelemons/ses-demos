@@ -1,0 +1,6 @@
+{
+    "Template": { 
+        "TemplateData": "{ \"name\":\"Dave\", \"favoriteanimal\": \"Dog\" }",
+        "TemplateName": "ThisTest"
+     }
+}
